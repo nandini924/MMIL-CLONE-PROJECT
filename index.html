@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonial Card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfaf4;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.testimonial-card {
+  width: 360px;
+  background-color: white;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border: 1px solid #ccc;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.user-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-weight: bold;
+  color: #23414e;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.user-location {
+  color: #e25c4b;
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.stars {
+  margin: 12px 0;
+  font-size: 1.25rem;
+  color: #f16645;
+}
+
+.stars .inactive {
+  color: #e0e0e0;
+}
+
+.message-box {
+  background-color: #f6f6f6;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.4;
+}
+
+</style>
+<body>
+  <div class="testimonial-card">
+    <div class="user-info">
+      <img src="https://i.pravatar.cc/48?img=12" alt="Kuldeep Pandit" class="avatar">
+      <div class="user-text">
+        <h4 class="user-name">Kuldeep Pandit</h4>
+        <p class="user-location">From Noida</p>
+      </div>
+    </div>
+
+    <div class="stars">
+      <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span class="inactive">⭐</span>
+    </div>
+
+    <div class="message-box">
+      <p>I am really impressed with the work of this company, they literally built my Dream.</p>
+    </div>
+  </div>
+</body>
+</html>

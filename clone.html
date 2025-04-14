@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+        width: 2543;
+height: 1605;
+top: -611px;
+left: -551px;
+
+      background: linear-gradient(to bottom, #fff, #f8e8c8);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* header { 
+      background: #0d1c2c;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+    }  */
+   
+     .top-bar{
+        width: 1440;
+height: 35;
+background: #264653;
+color: white;
+  font-size: 14px;
+  padding: 8px 20px;
+  text-align: center;
+    }
+    .contact-info span {
+  margin-left: 20px;
+}
+.left-span {
+  margin-right:35px;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: transparent;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.real {
+  width: 118;
+height: 39;
+top: 59px;
+left: 67px;
+font-family: Rock Salt;
+font-weight: 400;
+font-size: 22px;
+line-height: 100%;
+letter-spacing: 0%;
+
+
+  color: #1d3f43;
+}
+.estate {
+  width: 55;
+height: 21;
+top: 98px;
+left: 98px;
+
+  font-family: Proxima Nova;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+
+  color: #ea6a49;
+}
+
+
+.navbar {
+  width: 465;
+height: 40;
+top: 69px;
+left: 457px;
+
+
+  background-color: #20444a; /* dark teal/navy shade */
+  padding: 10px 30px;
+  border-radius: 14px;
+  width: fit-content;
+  margin: 40px auto;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.nav-links{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav-links li a{
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Segoe UI', sans-serif;
+}
+ 
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+ /* .imp-bar{
+    width: 465px;
+height: 20 px;
+top: 69px;
+left: 457px;
+border-radius: 14px;
+background: white;
+
+ } */
+ .bar1{
+    width: 71px;
+height: 20px;
+top: 76px;
+left: 487px;
+font-family: Afacad Flux;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color:#ffffff;
+
+ }
+ .bar2{
+    width: 97;
+height: 20;
+top: 76px;
+left: 632px;
+
+ }
+ .bar3{
+    width: 122;
+height: 16;
+top: 76px;
+left: 773px;
+font-family: Afacad Flux;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color:white ;
+
+ }
+ .imp-bar {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+ .link1{
+width: 73px;
+height: 15px;
+top: 82px;
+left: 1100px;
+font-family: Afacad Flux;
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #264653;
+
+ }
+ 
+ 
+    
+    .cta-btn {
+  background-color: #f4b942;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+.explore-btn {
+  width: 278px;
+height: 44px;
+top: 560px;
+left: 792px;
+
+
+  margin-top: 20px;
+  background-color: #f4b942;
+  border: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 7px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px 40px;
+}
+
+.hero-left img {
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.hero-right h1 {
+  font-size: 48px;
+  line-height: 1.4;
+}
+.highlight-red{
+  color:#d04e3f;
+  font-weight:bold;
+}
+.highlight-blue {
+  color: #1f2c38;
+  font-weight: bold;
+}
+.page2{
+    margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(120deg, #f6c964, #e6d9d1);
+}
+
+    .services {
+        
+  padding: 60px 20px;
+  text-align: center;
+}
+.subtittle{
+  font-size: 20px;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.main-title {
+  font-size: 30px;
+  margin: 10px 0 40px;
+  color: #d04e3f;
+}
+
+.main-title span {
+  color: #d04e3f;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background: #fffdf7;
+  border-radius: 17px;
+  padding: 25px 20px;
+  border:3px;
+  border-color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.service-card .photoframe {
+
+  margin-bottom: 15px;
+  width: 63px;
+height: 63px;
+top: 993px;
+left: 167px;
+
+}
+.service-card h3 {
+    width: 132;
+height: 18;
+top: 1063px;
+left: 167px;
+font-family: Afacad Flux;
+font-weight: 800;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #445E66;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+    width: 232;
+height: 77;
+top: 1092px;
+left: 158px;
+
+  font-size: 14px;
+  color: #E97B5E;
+  
+  line-height: 1.6;
+  font-family: Afacad Flux;
+font-weight: 400;
+font-size: 13px;
+/* line-height: 100%;
+letter-spacing: 0%;
+background: #E97B5E; */
+
+
+}
+.service-card img{
+    width: 63px;
+height: 63px;
+top: 993px;
+left: 167px;
+
+}
+.animated-page{
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfaf4;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.testimonial-card {
+  width: 360px;
+  background-color: white;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border: 1px solid #ccc;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.user-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-weight: bold;
+  color: #23414e;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.user-location {
+  color: #e25c4b;
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.stars {
+  margin: 12px 0;
+  font-size: 1.25rem;
+  color: #f16645;
+}
+
+.stars .inactive {
+  color: #e0e0e0;
+}
+
+.message-box {
+  background-color: #f6f6f6;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.4;
+}
+.page3 {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f4c255, #dad873);
+  color: #2b2b2b;
+}
+.our-story-section {
+  padding: 40px 20px;
+}
+
+.story-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.story-btn {
+  background-color: white;
+  color: #e63946;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.story-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.story-content p{
+     width: 820px;
+/* height: 512px; */
+top: 2446px;
+left: 63px; 
+font-family: Afacad Flux;
+font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #264653;
+}
+
+.text {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.image-section img {
+  
+height: 434px;
+top: 2481px;
+left: 969px;
+border-radius: 15px;
+
+  width: 377px;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.stats-bar {
+  background-color: #1d3557;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 20px 0;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.stat h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.stat p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+
+
+    
+      
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #fef9ed;
+  color: #333;
+}
+
+/* Call Section */
+.call-section {
+  padding: 40px 20px;
+  background: linear-gradient(to right, #ffe3a3, #fff9df);
+ 
+  /* border-radius: 12px; */
+  /* margin: 40px;
+  width: 1352;
+height: 607;
+top: 3127px;
+left: 44px;
+border-width: 5px;
+border-radius: 23px;
+border: 5px solid #FFFFFF;
+color: #FFFFFFBD;
+; */
+
+
+}
+
+.call-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+ top:3295px;
+ left:800px;
+border-width: 5px;
+border-radius: 23px;
+border: 5px solid #FFFFFF 
+}
+
+.illustration img {
+  width: 525.95703125px;
+height: 480;
+top: 3194px;
+left: 44px;
+
+
+}
+
+.form-section {
+  flex: 1;
+  min-width: 280px;
+}
+.form-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #e76f51;
+}
+.highlight-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ea6a49; 
+  /* font-family: 'Segoe UI', sans-serif;
+  width: 184px;
+height: 41px;
+top: 3627px;
+left: 927px;
+border-radius: 7px; */
+
+}
+
+.highlight-heading span {
+  font-weight: 800; 
+}
+
+
+.form-section .highlight {
+  color: #e63946;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 12px 16px;
+  border: none;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 416px;
+height: 47px;
+top: 3295px;
+left: 800px;
+border-radius: 8px;
+
+}
+
+button {
+  width: 184px;
+height: 41px;
+top: 3627px;
+left: 927px;
+
+
+  background-color: #f4b400;
+  color: black;
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 7px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #f2a100;
+}
+
+/* Footer Section */
+footer {
+  background-color: #f5c059;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-brand h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.real {
+  color: #000;
+}
+
+.estate {
+  color: #e76f51;
+}
+
+.social-icons img {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding-top: 10px;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer-links h4,
+.footer-contact h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-contact p {
+  margin-bottom: 8px;
+  
+
+}
+
+  </style>
+</head>
+
+<body>
+    <header class="top-bar">
+        <div class="contact-info">
+          <span class ="left-span">Call Us: 99xxxxxx72, 97xxxxxx99</span>
+          <span class ="right-span">Email Us: mmil-official@gmail.com</span>
+        </div>
+      </header>
+   
+    <!-- <nav class ="lower-bar">
+      <a href="#" style="color:white;margin:0 10px;">Our Work</a>
+      <a href="#" style="color:white;margin:0 10px;">Services</a>
+      <a href="#" style="color:white;margin:0 10px;">Ongoing Project</a>
+    </nav>
+  -->
+  <!-- <nav class="navbar"> -->
+    <section class ="nav-bar">
+    <div class="logo">
+    <span class="real">Real</span><span class="estate"> Estate</span>
+   </div>
+    <nav class="navbar">
+    <ul class="nav-links">
+        <!-- <div class = "imp-bar"> -->
+      <li class="bar1"><a href="#">OurWork</a></li>
+      <li class="bar2">
+        <a href="#">Services ▾</a>
+      </li>
+      <li class ="bar3"><a href="#">Ongoing Projects</a></li>
+    </ul>
+    <!-- </nav> -->
+    <!-- </div class ="bar4"> -->
+  </nav>
+  <div class="imp-bar" >
+     <li> <a href="#" class="link1">ABOUT US</a></li>
+      
+  <!-- </div> -->
+    <button class="cta-btn">EXPECT A CALL</button>
+  </div>
+</section>
+  <!-- </nav> -->
+  <main class="hero-section">
+    <div class="hero-left">
+      <img src="https://s3-alpha-sig.figma.com/img/ac55/6380/d6c086c8653b6ceaddc704af7f0113a7?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hMmpvUEpQ5yv5q8M5qU3ZkTZRxpa3yKsWSYaigrHaPan904~iFq6HULADyfhYl--6SdWVS6vTpjY8H3UnuxUB0VMofGstakjXJGj9WYdiHwfKy3Mlpj~1VPGFA5qBCF9r7DVG4vC7Rw~NNhZymnvxIKGGtLqjsZSYeaDph74zEFVsHhqMT16aQ~-HsX~xbYHwCgPpP4QM2PKaJDeHd~H0z8Rlx75qK3RM3xGlCbnqaAP9ABzQ0msmCHpcmOep5HharDhSXOj8vG4A2w4JuXDXdSnyzg739cCilRq66PcrrlhOzXqDLXhfhUrDNkUovezBSLdwOxTjw1-P5OIloL0zQ__" alt="Excavator" />
+    </div>
+    <div class="hero-right">
+      <h1><span class="highlight-red">Get Your</span> <span class="highlight-blue">Dreams</span><br>
+      <span class="highlight-red">Built with</span><br>
+      <span class="highlight-blue">Real Estate</span></h1>
+      <button class="explore-btn">Explore Dreams We Built</button>
+    </div>
+  </main>
+  <!-- <section class="hero">
+    <img src="https://s3-alpha-sig.figma.com/img/ac55/6380/d6c086c8653b6ceaddc704af7f0113a7?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hMmpvUEpQ5yv5q8M5qU3ZkTZRxpa3yKsWSYaigrHaPan904~iFq6HULADyfhYl--6SdWVS6vTpjY8H3UnuxUB0VMofGstakjXJGj9WYdiHwfKy3Mlpj~1VPGFA5qBCF9r7DVG4vC7Rw~NNhZymnvxIKGGtLqjsZSYeaDph74zEFVsHhqMT16aQ~-HsX~xbYHwCgPpP4QM2PKaJDeHd~H0z8Rlx75qK3RM3xGlCbnqaAP9ABzQ0msmCHpcmOep5HharDhSXOj8vG4A2w4JuXDXdSnyzg739cCilRq66PcrrlhOzXqDLXhfhUrDNkUovezBSLdwOxTjw1-P5OIloL0zQ__" alt="Excavator">
+    <h1 class = "m1">Get Your Dreams Built with Real Estate</h1>
+   
+    <a href="#" class="btn">Explore Dream we built</a>
+  </section> -->
+<section class= "page2"></section>
+  <section class="services">
+    <!-- <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">High Quality Construction</div>
+      <div class="card">Architecture & Design</div>
+      <div class="card">Project Management</div>
+    </div> -->
+    <h3 class="subtitle">Our Services</h3>
+    <h1 class="main-title">High Quality Construction For<br> <span>Residentials & Industries!</span></h1>
+    <div class="services-grid">
+        <div class="service-card">
+           
+                <img src="https://zhuzoor.com/wp-content/uploads/2022/07/icon3.png" alt="Framed" />
+              
+          <h3>Turnkey Construction</h3>
+          <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies scelerisque facilisis.</p>
+        </div>
+        <div class="service-card">
+            
+          <img src="https://theresearchbit.com.au/wp-content/uploads/2024/11/undraw_eiffel_tower_re_e11r.svg" alt="e" class="icon"/>
+          <h3>Architectural<br>Map</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies scelerisque facilisis.</p>
+        </div>
+        <div class="service-card">
+          <img src="https://imgs.search.brave.com/WtDG1DQAzIIjMCVmQdGlsKbfJ5N6e_260QcgDt1Bpvo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2Q4L2I0/L2JhL2Q4YjRiYTNl/MzMzYmYwYTQ5YjJk/NTgyOGRkYmQ4ZDg2/LmpwZw" alt="Interior" class="icon"/>
+         <h3>Interior Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies scelerisque facilisis.</p>
+        </div>
+        <div class="service-card">
+          <img src="https://cdn.umso.co/bfp3bzclnjlh/assets/pyxo0eur.svg" alt="Structure" class="icon"/>
+          <h3>Structure Work</h3>
+          <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies scelerisque facilisis.</p>
+        </div>
+        <div class="service-card">
+          <img src="https://fathamster.studio/wp-content/uploads/2025/01/8.png" alt="Front Elevation" class="icon"/>
+          <h3>Front Elevation</h3>
+          <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies scelerisque facilisis.</p>
+        </div>
+      </div>
+      <section class="animated-page">
+  
+      <div class="testimonial-card">
+        <div class="user-info">
+          <img src="https://i.pravatar.cc/48?img=12" alt="Kuldeep Pandit" class="avatar">
+          <div class="user-text">
+            <h4 class="user-name">Kuldeep Pandit</h4>
+            <p class="user-location">From Noida</p>
+          </div>
+        </div>
+    
+        <div class="stars">
+          <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span class="inactive">⭐</span>
+        </div>
+    
+        <div class="message-box">
+          <p>I am really impressed with the work of this company, they literally built my Dream.</p>
+        </div>
+      </div>
+    
+    <div class="testimonial-card">
+      <div class="user-info">
+        <img src="https://i.pravatar.cc/48?img=12" alt="Kuldeep Pandit" class="avatar">
+        <div class="user-text">
+          <h4 class="user-name">Parth Chaturvedi </h4>
+          <p class="user-location">From Noida</p>
+        </div>
+      </div>
+  
+      <div class="stars">
+        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span class="inactive">⭐</span>
+      </div>
+  
+      <div class="message-box">
+        <p>they are fully trust worthy,provided a to z services i needed with smooth process.</p>
+      </div>
+    </div>
+  </section>
+ <section class="page4">
+  <section class="our-story-section">
+    <div class="story-header">
+      <button class="story-btn">Our Story</button>
+      <img src="https://img.icons8.com/emoji/48/construction-worker.png" class="icon" alt="Icon" />
+    </div>
+
+    <div class="story-content">
+      <div class="text">
+        <p>
+          Founded with a vision to shape the future of construction, <strong>Real Estate</strong> began its journey with a passion for building more than just structures—we build lasting legacies.
+          Our story started <strong>1995</strong> with a commitment to quality, innovation, and integrity at the heart of everything we do.
+        </p>
+    </br>
+        <p>
+          Over the years, we’ve grown from a small team into a leading player in the construction industry, trusted by clients for our reliability and expertise. Whether it’s residential, commercial, or infrastructure projects, we approach every venture with the same dedication and attention to detail that has defined our reputation.
+        </p>
+    </br>
+        <p>
+          At <strong>Real Estate</strong>, we believe that the foundation of great construction is not just about materials but about people. Our experienced team of architects, engineers, and project managers work closely with clients to turn visions into reality, ensuring that every project stands as a testament to excellence.
+        </p>
+    </br>
+        <p>
+          From the ground up, we build more than just buildings—<strong>we build trust.</strong>
+        </p>
+      </div>
+      <div class="image-section">
+        <img src="https://s3-alpha-sig.figma.com/img/cf7b/ee4a/8da7bf297683e4b8286eff9c1cb53d36?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ctE8wazj0BFiIqW0qmqlHc2bAeWGoItvYRfud0QiUAO-mEq17yQJf904cxq~3j-mcZyylbE3hodW4xX03JQ~VRGj~hBlxHdOz4043la3iEJHlJg8Y7hSg9VRgig9J~gUkt7p3VyEMZXJ2ObZJ6Ba4frBz96QgxBP3qt5Rl6SnFbblDlAiv2D6gPHVBYb9jqQ3L8d0wEoBzP4NXukXntl-BsVpYMQtzsJ1tT~Weh7uymwWZ5Av2DZBXjF~iAH3HlaUTlSgvNbxHBQDbo1l8F9oIITf3LSnUgNytLoOBAs8yEAfB-fCsq74X~ifAwk17gtGBAYZi6ppLX9YEZ2GSIR6g__" />
+      </div>
+    </div>
+
+    <div class="stats-bar">
+      <div class="stat">
+        <img src="https://img.icons8.com/ios-filled/50/building.png" />
+        <h2>1250+</h2>
+        <p>Projects</p>
+      </div>
+      <div class="stat">
+        <img src="https://img.icons8.com/ios-filled/50/worker-male.png" />
+        <h2>1340+</h2>
+        <p>Experienced Staff</p>
+      </div>
+    </div>
+  </section>
+</section>
+<body class="p4">
+<section class="call-section">
+    <div class="call-container">
+      <div class="illustration">
+        <img src="https://imgs.search.brave.com/WmtBgwALymOktrh9knYQmfYGmh4rsYbIqilV8_YaYeY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzY4Lzc5Lzc2/LzM2MF9GXzI2ODc5/NzY4Nl9RR3l2cXdM/bUdDT1JLSkRpTGU5/WnZGaFVWa0dQZ0Y4/eC5qcGc" alt="Call Illustration" />
+      </div>
+      <div class="form-section">
+        <h2 class="highlight-heading">Expect a Call from <span>US</span></h2>
+        <form>
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <input type="text" placeholder="Phone Number" required>
+          <input type="text" placeholder="Location" required>
+          <button type="submit">EXPECT A CALL</button>
+        </form>
+      </div>
+    </div>
+  </section>
+ </body>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h2><span class="real">Real</span> <span class="estate">Estate</span></h2>
+        <div class="social-icons">
+          <img src="https://img.icons8.com/ios-glyphs/30/instagram-new.png" />
+          <img src="https://img.icons8.com/ios-glyphs/30/facebook-new.png" />
+          <img src="https://img.icons8.com/ios-glyphs/30/twitter--v1.png" />
+        </div>
+        <p>Established 2004</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Useful Links</h4>
+        <ul>
+          <li>Our Work</li>
+          <li>Ongoing Projects</li>
+          <li>About Us</li>
+          <li>Gallery</li>
+          <li>Services</li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Reach Us</h4>
+        <p><strong>Email:</strong> rm11_official@gmail.com</p>
+        <p><strong>Phone:</strong> 99xxxxx77, 70xxxxx99</p>
+        <p>Expect a Call from Us</p>
+      </div>
+    </div>
+  </footer>
+
+  
+
+
+</body>
+
+</html>
